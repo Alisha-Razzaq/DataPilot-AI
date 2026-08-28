@@ -2,6 +2,8 @@
 
 A production-style AI-powered data analysis platform.
 
+**[Live Demo →](https://data-pilot-ai-seven.vercel.app/)**
+
 **Core rule:** the language model must never invent numerical answers. When a question needs a calculation, the backend runs a real analysis function against the uploaded dataset and uses that result in the reply.
 
 This repository is being built in phases. **Phase 8** adds a backend-only hosted LLM that may request the existing analysis tools. The dashboard has no chat UI yet.
