@@ -1,0 +1,57 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets — never commit real API keys
+.env
+
+# Uploaded datasets (keep the folder, ignore the files)
+data/uploads/*
+!data/uploads/.gitkeep
+*.csv
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+
+# Generated analysis outputs / charts
+generated/
+*.png
+*.jpg
+*.jpeg
+
+# Frontend (keep source; ignore install/build artifacts)
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+.npm-cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Package caches
+.pip-cache/
+.npm-cache/
